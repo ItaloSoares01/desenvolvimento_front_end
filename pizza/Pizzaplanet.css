@@ -1,0 +1,160 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: aliceblue;
+}
+
+.center{
+    max-width: 1100px;
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 40px;
+}
+
+.logo{
+    margin-top: 10px;
+    color: #ff0100;
+}
+
+.menu-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-container a.active-menu{
+    background-color: #ff0100;
+}
+
+.menu-container a{
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 40px;
+    text-decoration: none;
+    padding: 0px 10px;
+    transition: 0.8s;
+}
+
+.menu-container a:hover{
+    color: #ff0100;
+}
+
+section.main{
+    min-height: 800px;
+    background-image: url(3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text-chamada{
+    color: white;
+    position: absolute;
+    bottom: -50px;
+    left: 30px;
+}
+
+.text-chamada h1{
+    font-size: 60px;
+
+}
+
+.text-chamada h3{
+    font-size: 30px;
+}
+
+section.produtos{
+    background-color: #ff0100;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+#menu {
+	background-color: #ff0100;
+	padding: 50px;
+	text-align: center;
+}
+
+#menu h2 {
+	font-size: 36px;
+	margin-top: 0;
+}
+
+#menu ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu li {
+	background-color:black;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	width: calc(33.33% - 40px);
+}
+
+#menu li img {
+	margin-bottom: 10px;
+}
+
+#menu li h3 {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+#menu li p {
+	font-size: 14px;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+#menu li strong {
+	color: #FF8C00;
+	display: block;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+#menu li button {
+	background-color: #ff0100;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 10px;
+	transition: background-color 0.3s;
+	width: 100%;
+}
+
+#menu li button:hover {
+	background-color: #ff0100;
+}
+
+#menu a {
+	background-color: #ff0100;
+	border-radius: 5px;
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 20px;
+	padding: 10px;
+	text-decoration: none;
+	transition: background-color 0.3s;
+}
+
+#menu a:hover {
+	background-color: black;
+}
